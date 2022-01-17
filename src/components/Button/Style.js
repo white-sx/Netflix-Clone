@@ -15,4 +15,30 @@ export const Levar = styled.a`
   margin-left: 10px;
   z-index: 10;
   box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  position: relative;
+
+  .arrow-right {
+  
+   position: absolute;
+   top: 23%;
+   width: 20px;
+    right: 7%; 
+ }
+
+  @media only screen and (min-width: 950px) and (max-width: 1449px),
+    only screen and (min-width: 1450px) {
+    width: 78.7px;
+    height: 34px;
+    padding: 7px 17px;
+
+    .arrow-right {
+   display: block;
+   position: absolute;
+   top: 30%;
+   width: 25px;
+    right: 5%; 
+ }
+  }
+
+  
 `;
